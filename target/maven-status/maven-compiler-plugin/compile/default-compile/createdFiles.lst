@@ -1,0 +1,12 @@
+commons\BasePage.class
+pageObjects\RegisterPageObject.class
+pageUIs\RegisterPageUI.class
+commons\GlobalConstants.class
+commons\BasePage$1.class
+pageObjects\PageGeneratorManager.class
+pageUIs\UserBasePageUI.class
+pageUIs\LoginPageUI.class
+commons\BasePage$2.class
+pageObjects\HomePageObject.class
+pageObjects\LoginPageObject.class
+pageUIs\HomePageUI.class

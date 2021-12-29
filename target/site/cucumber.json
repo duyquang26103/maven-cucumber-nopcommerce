@@ -1,0 +1,199 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Register to application",
+        "description": "",
+        "id": "register-and-login;register-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10365110800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click to register link",
+            "match": {
+              "location": "HomePageSteps.iClickToRegisterLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306656700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Click to Gender Radio Button",
+            "match": {
+              "location": "RegisterPageSteps.iClickToGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116223300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Input to First Name textbox with \"Abner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abner",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToFirstNameTextboxWith(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85475600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I  Input to Last Name textbox with \"Simba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Simba",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToLastNameTextboxWith(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82262000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Input to email textbox with data \"automation@gmail.com.vn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automation@gmail.com.vn",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToEmailTextboxWithData(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86109300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Input to password textbox with data \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToPasswordTextboxWithData(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107772900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input to Confirm Password textbox:\"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 37
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToConfirmPasswordTextbox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2774030800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Click on Register button",
+            "match": {
+              "location": "RegisterPageSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78302500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify register successfully",
+            "match": {
+              "location": "RegisterPageSteps.verifyRegisterSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1592463500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click on \u0027Logout\u0027 button",
+            "match": {
+              "location": "RegisterPageSteps.iClickOnLogoutButton()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login_register"
+          }
+        ]
+      }
+    ],
+    "name": "Register and Login",
+    "description": "As a PO\r\nI want to login ti application\r\nSo that verify login function work well",
+    "id": "register-and-login",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login_register"
+      }
+    ]
+  }
+]
